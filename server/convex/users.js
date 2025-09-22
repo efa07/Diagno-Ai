@@ -7,12 +7,18 @@ export const getByGoogleId = query(async ({ db }, { googleId }) => {
     .first();
 });
 
-export const add = mutation(async ({ db }, { googleId, name, email, picture }) => {
-  return await db.insert("users", {
-    googleId,
-    name,
-    email,
-    picture,
-    createdAt: Date.now(),
-  });
+export const saveUser = mutation(async ({ db }, user) => {
+  const existing = await db.query("users").withIndex("byEmail", (q) =>
+    q.eq("email", user.email)
+  ).unique();
+
+  if (!existing) {
+    await db.insert("users", {
+      email: user.email,
+      name: user.name,
+      picture: user.picture,
+      role: "patient", // default role
+    });
+  }
 });
+

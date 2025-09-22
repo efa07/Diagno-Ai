@@ -1,13 +1,21 @@
-import { defineSchema, defineTable } from "convex/schema";
+import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
 
 export default defineSchema({
-  users: defineTable({
-    googleId: v.string(),
-    name: v.string(),
-    email: v.string(),
-    picture: v.string(),
-    role: v.optional(v.string()), // optional but default to patient in code
-    createdAt: v.number(),
-  }),
+  users: defineTable(
+    v.object({
+      email: v.string(),
+      name: v.optional(v.string()),
+      image: v.optional(v.string()), 
+      createdAt: v.number(), 
+    })
+  ),
+
+  sessions: defineTable(
+    v.object({
+      userId: v.id("users"),
+      expiresAt: v.number(), 
+      createdAt: v.number(),
+    })
+  ),
 });
