@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///home/x/Diagno-Ai/client/app/dashboard/patient/Home.css"],"sourcesContent":[".home-container {\n  position: relative;\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n}\n\n.shader-iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: -1; /* Places iframe behind the h1 */\n}\n\nh1 {\n  color: white; /* Ensures text is visible against the dynamic gradient */\n  text-align: center;\n  z-index: 1; /* Ensures h1 is above the iframe */\n  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: improves text readability */\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;;;;AASA","debugId":null}}]
+}

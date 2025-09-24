@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/x/Diagno-Ai/client/app/dashboard/patient/page.jsx"],"sourcesContent":["import React from 'react';\nimport './Home.css';\n\nconst Home = () => {\n  return (\n    <div className=\"home-container\">\n      <iframe\n        src=\"https://www.shadergradient.co/customize?animate=on&axesHelper=off&brightness=1&cAzimuthAngle=180&cDistance=2.8&cPolarAngle=80&cameraZoom=9.1&color1=%23606080&color2=%238d7dca&color3=%23212121&destination=onCanvas&embedMode=off&envPreset=city&format=gif&fov=45&frameRate=10&gizmoHelper=hide&grain=on&lightType=3d&pixelDensity=1&positionX=0&positionY=0&positionZ=0&range=enabled&rangeEnd=40&rangeStart=0&reflection=0.1&rotationX=50&rotationY=0&rotationZ=-60&shader=defaults&toggleAxis=true&type=waterPlane&uAmplitude=0&uDensity=1.5&uFrequency=0&uSpeed=0.3&uStrength=1.5&uTime=8&wireframe=false\"\n        className=\"shader-iframe\"\n        title=\"Shader Gradient Background\"\n        frameBorder=\"0\"\n      ></iframe>\n      <h1>Hi</h1>\n    </div>\n  );\n};\n\nexport default Home;"],"names":[],"mappings":";;;;;AAAA;;;;AAGA,MAAM,OAAO;IACX,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBACC,KAAI;gBACJ,WAAU;gBACV,OAAM;gBACN,aAAY;;;;;;0BAEd,8OAAC;0BAAG;;;;;;;;;;;;AAGV;uCAEe","debugId":null}}]
+}
