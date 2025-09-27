@@ -120,3 +120,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.glow {
+  box-shadow: 0 0 15px 0px #13ecc8;
+}
