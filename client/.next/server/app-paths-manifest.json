@@ -1,6 +1,16 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...all]/route": "app/api/auth/[...all]/route.js",
   "/auth/page": "app/auth/page.js",
+  "/dashboard/doctor/chat/page": "app/dashboard/doctor/chat/page.js",
+  "/dashboard/doctor/lab-results/page": "app/dashboard/doctor/lab-results/page.js",
+  "/dashboard/doctor/page": "app/dashboard/doctor/page.js",
+  "/dashboard/doctor/patients/page": "app/dashboard/doctor/patients/page.js",
+  "/dashboard/doctor/prescriptions/page": "app/dashboard/doctor/prescriptions/page.js",
   "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/patient/appointment/page": "app/dashboard/patient/appointment/page.js",
+  "/dashboard/patient/chat/page": "app/dashboard/patient/chat/page.js",
+  "/dashboard/patient/prescriptions/page": "app/dashboard/patient/prescriptions/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js"
 }

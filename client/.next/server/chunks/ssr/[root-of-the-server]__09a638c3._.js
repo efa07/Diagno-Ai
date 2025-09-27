@@ -8203,7 +8203,7 @@ exports.Prisma.ModelName = {
             "value": "prisma-client-js"
         },
         "output": {
-            "value": "/home/x/Diagno-Ai/client/lib/generated/prisma",
+            "value": "/project/workspace/client/lib/generated/prisma",
             "fromEnvVar": null
         },
         "config": {
@@ -8212,17 +8212,16 @@ exports.Prisma.ModelName = {
         "binaryTargets": [
             {
                 "fromEnvVar": null,
-                "value": "debian-openssl-3.0.x",
+                "value": "debian-openssl-1.1.x",
                 "native": true
             }
         ],
         "previewFeatures": [],
-        "sourceFilePath": "/home/x/Diagno-Ai/client/prisma/schema.prisma",
+        "sourceFilePath": "/project/workspace/client/prisma/schema.prisma",
         "isCustomOutput": true
     },
     "relativeEnvPaths": {
-        "rootEnvPath": null,
-        "schemaEnvPath": "../../../.env"
+        "rootEnvPath": null
     },
     "relativePath": "../../../prisma",
     "clientVersion": "6.16.2",
@@ -8270,8 +8269,8 @@ const PrismaClient = getPrismaClient(config);
 exports.PrismaClient = PrismaClient;
 Object.assign(exports, Prisma);
 // file annotations for bundling tools to include these files
-path.join(("TURBOPACK compile-time value", "/ROOT/lib/generated/prisma"), "libquery_engine-debian-openssl-3.0.x.so.node");
-path.join(process.cwd(), "lib/generated/prisma/libquery_engine-debian-openssl-3.0.x.so.node");
+path.join(("TURBOPACK compile-time value", "/ROOT/lib/generated/prisma"), "libquery_engine-debian-openssl-1.1.x.so.node");
+path.join(process.cwd(), "lib/generated/prisma/libquery_engine-debian-openssl-1.1.x.so.node");
 // file annotations for bundling tools to include these files
 path.join(("TURBOPACK compile-time value", "/ROOT/lib/generated/prisma"), "schema.prisma");
 path.join(process.cwd(), "lib/generated/prisma/schema.prisma");
@@ -8340,7 +8339,7 @@ const auth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f
 "[project]/lib/actions/auth-actions.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"7f2b3769951d4d2ce1cf1702a75aac7e0fc0601854":"signOut","7f35b0efe8167683c80df8ef5e8241d608750e6cb0":"signIn","7f3e2c0eb5ff9ccf6b7d913e8ad4458a3558a5840a":"signInSocial","7f4ff8c82e4b48fb4e7ec75b0fdadfd5af1295699b":"signUp"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"7f49b7ff9a2d541a3005087d2cfaa7703d85e2e327":"signUp","7f89f63521fb632c4f218745ca44dd7f1536b76624":"signOut","7f98264b94319ee51f1ee01003873a6ded45a35959":"signIn","7fc3d5a3a66140725ae63a7f4a417d772540e6ab76":"signInSocial"},"",""] */ __turbopack_context__.s([
     "signIn",
     ()=>signIn,
     "signInSocial",
@@ -8405,10 +8404,10 @@ const signOut = async ()=>{
     signInSocial,
     signOut
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signUp, "7f4ff8c82e4b48fb4e7ec75b0fdadfd5af1295699b", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signIn, "7f35b0efe8167683c80df8ef5e8241d608750e6cb0", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signInSocial, "7f3e2c0eb5ff9ccf6b7d913e8ad4458a3558a5840a", null);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signOut, "7f2b3769951d4d2ce1cf1702a75aac7e0fc0601854", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signUp, "7f49b7ff9a2d541a3005087d2cfaa7703d85e2e327", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signIn, "7f98264b94319ee51f1ee01003873a6ded45a35959", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signInSocial, "7fc3d5a3a66140725ae63a7f4a417d772540e6ab76", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(signOut, "7f89f63521fb632c4f218745ca44dd7f1536b76624", null);
 }),
 "[project]/.next-internal/server/app/auth/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript) <locals>", ((__turbopack_context__) => {
 "use strict";
@@ -8423,12 +8422,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$auth$2d$ac
 "use strict";
 
 __turbopack_context__.s([
-    "7f35b0efe8167683c80df8ef5e8241d608750e6cb0",
+    "7f49b7ff9a2d541a3005087d2cfaa7703d85e2e327",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$auth$2d$actions$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["signUp"],
+    "7f98264b94319ee51f1ee01003873a6ded45a35959",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$auth$2d$actions$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["signIn"],
-    "7f3e2c0eb5ff9ccf6b7d913e8ad4458a3558a5840a",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$auth$2d$actions$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["signInSocial"],
-    "7f4ff8c82e4b48fb4e7ec75b0fdadfd5af1295699b",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$auth$2d$actions$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["signUp"]
+    "7fc3d5a3a66140725ae63a7f4a417d772540e6ab76",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$auth$2d$actions$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["signInSocial"]
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f2e$next$2d$internal$2f$server$2f$app$2f$auth$2f$page$2f$actions$2e$js__$7b$__ACTIONS_MODULE0__$3d3e$__$225b$project$5d2f$lib$2f$actions$2f$auth$2d$actions$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$server__actions__loader$2c$__ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i('[project]/.next-internal/server/app/auth/page/actions.js { ACTIONS_MODULE0 => "[project]/lib/actions/auth-actions.ts [app-rsc] (ecmascript)" } [app-rsc] (server actions loader, ecmascript) <locals>');
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$auth$2d$actions$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/actions/auth-actions.ts [app-rsc] (ecmascript)");

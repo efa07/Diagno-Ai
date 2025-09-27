@@ -172,7 +172,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/x/Diagno-Ai/client/lib/generated/prisma",
+      "value": "/project/workspace/client/lib/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -181,17 +181,16 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "debian-openssl-3.0.x",
+        "value": "debian-openssl-1.1.x",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/x/Diagno-Ai/client/prisma/schema.prisma",
+    "sourceFilePath": "/project/workspace/client/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.16.2",

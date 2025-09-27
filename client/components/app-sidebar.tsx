@@ -30,7 +30,6 @@ const sidebarData = {
     main: [
       { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
       { title: "Patients", url: "/dashboard/doctor/patients", icon: Users },
-      { title: "Appointments", url: "/dashboard/doctor/appointments", icon: Calendar },
       { title: "Lab Results", url: "/dashboard/doctor/lab-results", icon: FlaskConical },
       { title: "AI Recommendations", url: "/dashboard/doctor/chat", icon: Brain },
       { title: "Prescriptions", url: "/dashboard/doctor/prescriptions", icon: FileText },
